@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    max-width: 550px;
+    max-height: 550px;
+    margin: 20px auto;
+}
+
+.header {
+    color: #fff;
+    background: #D41DF2;
+    background: -webkit-linear-gradient(top left, #D41DF2, #7688DC);
+    background: -moz-linear-gradient(top left, #D41DF2, #7688DC);
+    background: linear-gradient(to bottom right, #D41DF2, #7688DC);
+    text-align: center;
+}
+
+.text-box {
+    background-color: #1F2937;
+    color: #fff;
+    text-align: center;
+}
