@@ -4,49 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Converter</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="card">
-        <header class="header">
-            <h1>Imperial to Metric Conversion</h1>
-            <input id="toMetricNum" type="number" step="0.01" placeholder="Enter number..">
-            <button id="toMetricBtn">Enter</button>
-        </header>
-        <div class="text-box">
-            <div id="metricResults"></div>
-            <div id="metricDefault">
-                <h3>Mass</h3>
-                <p>pounds = 0.00 kilos</p>
-                <h3>Volume</h3>
-                <p>gallons = 0.00 liters</p>
-                <h3>Length</h3>
-                <p>feet = 0.00 meters</p>
+    <div id="card-wrapper">
+        <div class="card">
+            <div class="card-content">
+                <div class="card-header">
+                    <h1>Imperial/Metric unit converter</h1>
+                    <input class="user-input" type="number">
+                    <button id="convert-btn">Convert</button>
+                </div>
+                <div class="card-body">
+                    <div id="result-card-wrapper">
+                        <div class="result-card">
+                            <h2>Length (Meter/Feet)</h1>
+                            <p class="answer-para">ans</p>
+                        </div>
+                        <div class="result-card">
+                            <h2>Volume (Litres/Gallons)</h1>
+                            <p>ans</p>
+                        </div>
+                        <div class="result-card">
+                            <h2>Mass (Kilograms/Pounds</h2>
+                            <div id="ans-para">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="card">
-        <header class="header">
-            <h1>Metric to Imperial Conversion</h1>
-            <input id="toImpNum" type="number" step="0.01" placeholder="Enter number..">
-            <button id="toImpBtn">Enter</button>
-        </header>
-        <div class="text-box">
-            <div id="impResults"></div>
-            <div id="impDefault">
-                <h3>Mass</h3>
-                <p>kilos = 0.00 pounds</p>
-                <h3>Volume</h3>
-                <p>liters = 0.00 gallons</p>
-                <h3>Length</h3>
-                <p>meters - 0.00 feet</p>
+        <!--<div class="card">
+            <div class="card-content">
+                <div class="card-header">
+                    <h1>Imperial/Metric unit converter</h1>
+                    <input id="user-input" type="number">
+                    <button id="convert-btn">Convert</button>
+                </div>
+                <div class="card-body">
+                    <div id="result-card-wrapper">
+                        <div class="result-card">
+                            <h2>Length (Meter/Feet)</h1>
+                            <p class="answer-para">ans</p>
+                        </div>
+                        <div class="result-card">
+                            <h2>Volume (Litres/Gallons)</h1>
+                            <p class="answer-para">ans</p>
+                        </div>
+                        <div class="result-card">
+                            <h2>Mass (Kilograms/Pounds</h2>
+                            <div class="ans-para">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <script src="scripts.js"></script>
+    </div> -->
 </body>
 </html>
+<script src="index.js"></script>
